@@ -1,40 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<head>
     <title>Portfolio</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="index.css" />
-  </head>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>     
+</head>
 
-  <body style="margin: 0; padding: 0">
-    <h3>Deo</h3>
+<body style="margin: 0; padding: 0">
+    <h1>Deo</h1>
     <ul>
-            <li>ABOUT</li>
-            <li>SKILLS</li>
-            <li>REVIEWS</li>
-            <li>PROJECT</li>            
-     </ul>
-     <img src="css.icon.png"><br>
-     <button><a href="https://mail.google.com/mail/u/1/?hl=en#inbox?compose=new">Contact</a></button>
-     <h1><bold>Jhon Doe</bold></h1>
-     <img src="../Portfolio/.public/jhonDoe.png" height="100px" width="100px">
-     <h1><bold>Front End Developer</bold></h1>
-     <h3>GET TO KNOW ME</h3>
-     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, accusantium, placeat soluta quam laboriosam alias dolorum provident sunt sed debitis mollitia vero unde similique quaerat distinctio enim repellat quia ex!<br><br>Name:Jhon Doe<br>Age:25<br>Exeperience:2years</P>
-     <h3>SKILLS</h3>
-     <img src="" alt="CSS">
-     <img src="" alt="HTML">
-     <img src="" alt="JAVASCRIPT">
-     <h3>GET IN TOUCH</h3>
-     <h4>CONTACT</h4>
-     <form action="mailto:electricera99@gmail.com.tld" method="GET">
-      <label>Name :</label>
-      <input type="text"><br>
-      <label>E-mail:</label>
-      <input type="email"><br>
-      Message<br>
-      <textarea name="body" placeholder="Add comment here"></textarea><br>
-      <input type="submit" value="Submit">
-     </form>
-  </body>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>REVIEWS</li>
+        <li>PROJECT</li>
+    </ul>
+    <img class="call"
+        src="https://th.bing.com/th?id=OIP.Wt910bi4UDoTKGbWMw_1RAHaHx&w=244&h=256&c=8&rs=1&qlt=90&o=6&dpr=1.8&pid=3.1&rm=2"
+        height="15px"><br>
+    <input class="button" type="button" onclick="location.href='www.google.com';" value="Contact" />
+    <h1>
+        <bold>Jhon Doe</bold>
+    </h1>
+    <img class="Doe" src="https://cdn.jsdelivr.net/gh/UIX-Labs/uix-labs-Gulshan-Yadav-HTML-and-CSS-Crash-Course-Make-Your-own-Portfolio@a42854b83a5ee731356ced0e3cd79e4ac184f26d/public/johnDoe.png"
+        height="150px" width="150px">
+    <h1>
+        <bold>Front End Developer</bold>
+    </h1>
+    <h3>GET TO KNOW ME</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, accusantium,<br> placeat soluta quam
+        laboriosam
+        alias dolorum provident sunt sed debitis mollitia vero<br> unde similique quaerat distinctio enim repellat quia
+        ex!<br><br>Name:Jhon Doe<br>Age:25<br>Exeperience:2years</p>
+    <h3>SKILLS</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT81jebNZhch3fhN8HiYmNkP76R6B38DzeH4g&usqp=CAU" height="50px"><br><span>HTML</span><br>
+    <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3247738/css3-alt-icon-md.png" height="50px"><br>
+    <span>CSS</span><br>
+    <img class="icon"
+        src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3204989/logo-javascript-icon-md.png"
+        height="50px" alt="JAVASCRIPT"><br><span>JAVASCRIPT</span>
+    <h3>PROJECTS</h3>
+   <div class="screen"><img class="screen" src="https://cdn.jsdelivr.net/gh/UIX-Labs/uix-labs-Gulshan-Yadav-HTML-and-CSS-Crash-Course-Make-Your-own-Portfolio@a42854b83a5ee731356ced0e3cd79e4ac184f26d/public/screen1.png"></div> 
+   <div class="info"><h3>Taskbot Real-Time,Task Manager</h3>
+    <pr>React.js, Firebase<br>
+    <strong>Developed a dynamic task management application<br>
+            using React.js and Firebase<br>
+            User can create, update, and delete tasks in real-<br>
+            time across devices.<br>
+            Integrated Firebase Authentication for Secure user
+            access.
+    </strong>
+    </pr><br>
+    <button class="button">EXPLORE</button>
+    </div>
+    <div class="screen1">
+        <img src="https://cdn.jsdelivr.net/gh/UIX-Labs/uix-labs-Gulshan-Yadav-HTML-and-CSS-Crash-Course-Make-Your-own-Portfolio@a42854b83a5ee731356ced0e3cd79e4ac184f26d/public/screen2.png">
+    </div>
+    <div class="info">
+        <h3>ShopPro, E-Commerce Website</h3>
+        React.js, TypeScript, Firebase<br>
+        <strong>Developed a responsive e-commerce website using<br>
+        Rect.js and TypeScript.<br>
+    Integrated Firebase for user authentication and<br>
+Firestore for product data storage.<br>
+Implemented secure payment processing with Strip API.</strong><br>
+<button class="button">EXPLORE</button>
+    </div>
+    <div class="footer">
+        <h3>GET IN TOUCH</h3>
+        <div class="child1">
+            <h4>CONTACT</h4>
+            <form action="mailto:electricera99@gmail.com.tld" method="GET">
+                <label>Name</label>
+                <input type="text" placeholder="Enter Name">
+                <label>E-mail Address</label>
+                <input type="text" placeholder="Enter E-mail address">
+                <lable>Message</lable>
+                <textarea name="body" placeholder="Add comment here"></textarea><br>
+                <input type="submit" class="button" value="SUBMIT">
+            </form>
+
+        </div>
+        <i class="fa fa-mobile-phone" id="fa" style="font-size: 30px;" ></i><span class="style">+918723568765</span>
+       <br><i class='fa fa-envelope'></i><span>Jhondoe@gmail.com</span><br>
+       <i class='fa fa-instagram'></i>
+       <i class='fa fa-linkedin-square'></i>
+      <p class="li"></p>
+       <ol>
+        <li>HOME</li>
+        <li>ABOUT</li>
+        <li>SKILLS</li> 
+        <li>PROJECT</li>
+    </ol>
+    </div>
+</body>
+
 </html>
