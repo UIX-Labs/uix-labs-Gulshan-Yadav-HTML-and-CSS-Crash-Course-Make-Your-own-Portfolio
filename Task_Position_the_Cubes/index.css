@@ -1,1 +1,42 @@
-/*  Start coding below for POSITION THE CUBES TASK*/
+.main{
+  height: 300px;
+  width: 300px;
+  background-color: indigo;
+}
+.child1{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  position: sticky;
+}
+.child2{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 208px;
+  top: 208px;
+}
+.child3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+  bottom: 100px;
+}
+.child4{
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  position: static;
+}
+.child5{
+  height: 50px;
+  width: 50px;
+  background-color: darkmagenta;
+  position: relative;
+  bottom: 175px;
+  left: 125px;
+  
+}
