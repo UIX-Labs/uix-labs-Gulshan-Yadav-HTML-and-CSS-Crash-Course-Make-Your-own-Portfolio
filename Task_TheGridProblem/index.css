@@ -1,1 +1,23 @@
-/* Start coding below for GRID PROBLEM TASK */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: orange;
+  display: grid;
+  gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 200px 100px 200px;
+}
+.box {
+  background-color: bisque;
+  text-align: center;
+}
+#box-7 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
